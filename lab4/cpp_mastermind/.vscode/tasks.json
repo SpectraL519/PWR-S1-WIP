@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++.exe compile test file",
+			"command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"main.cpp", "mastermind.cpp",
+				"-o", "game.exe",
+				"-std=c++2a",
+				"-Wall",
+				"-Wextra",
+				"-Wcast-align",
+				"-Wconversion",
+				"-Wunreachable-code",
+				"-Wuninitialized",
+				"-pedantic",
+				"-g", "-O3"
+			],
+			"options": {
+				"cwd": "C:\\coding\\projects\\cpp\\mastermind"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: \"C:\\msys64\\mingw64\\bin\\g++.exe\""
+		}
+	]
+}
